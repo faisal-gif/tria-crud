@@ -6,7 +6,8 @@ use Illuminate\Http\Request;
 
 class ArticlesController extends Controller
 {
-    public function articles($id){
-        return 'Halaman artikel dengan id'.$id;
+    public function index($id){
+        //return 'Halaman artikel dengan id'.$id;
+        return view('articles', compact('id'));
     }
 }
