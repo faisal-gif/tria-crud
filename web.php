@@ -11,11 +11,7 @@
 |
 */
 
-/*Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('hello', function() {
+/*Route::get('hello', function() {
     return 'Hello World';
 });
 
@@ -30,7 +26,20 @@ Route::get('/about', function(){
 Route::get('articles/{id}', function($id){
     return 'Halaman artikel dengan id'.$id;
 });*/
-;
+
+Route::get('/', function () {
+    return view('welcome');
+}); //JANGAN DI KOMEN NANTI GABISA AKSES LOCALHOST:8000
+/*Route::get('/about', function(){
+    return view('about');
+});
+
 Route::get('/home', 'HomeController@home');
 Route::get('/about', 'AboutController@about');
-Route::get('/articles/{id}', 'ArticlesController@articles');
+Route::get('/articles/{id}', 'ArticlesController@articles');*/
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/about', 'AboutController@index')->name('about');
+Route::get('/articles/{id}', 'ArticlesController@index')->name('articles');
