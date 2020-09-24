@@ -1,0 +1,13 @@
+SITI AMALIA FITRIANI/MI 2A/21/1931710005
+
+RANGKUMAN VIEW
+
+- view merupakan bagian dari MVC (Model View Controller) yang memiliki tugas untuk memberikan tampilan
+kepada user.
+
+- model berisi fungsi untuk keperluan data seperti CRUD database
+- view berisi kode html dan php yang digunakan untuk menampilkan
+- controller berisi fungsi-fungsi untuk memproses logic dan sistem dari web, seperti memproses form dan
+menampilkan view
+
+- pada dasarnya view digunakan untuk merepresentasikan tampilan pada suatu web
