@@ -1,3 +1,11 @@
 SITI AMALIA FITRIANI/21/MI 2A/1931710005
 
 RANGKUMAN 4
+
+-model adalah salah satu bagian dari MVC yang berhubungan langsung dengan database
+-di dalam materi ini terdapat beberapa step diantaranya membuat model, migrate, membuat factory, membuat seeder, membuat tabel dari model
+-untuk dapat menggunakan model sebelumnya harus melakukan koneksi kepada database dan membuat database laravel
+-migration berfungsi sebagai version control pada database. dengan migration memungkinkan kita untuk membuat, mengubah atau menghapus
+struktur tabel atau field pada database
+-seeding digunakan untuk memberikan data awal ke dalam database
+-chacing untuk melakukan optimasi terhadap aplikasi yang dikembangkan

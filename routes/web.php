@@ -43,3 +43,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/about', 'AboutController@index')->name('about');
 Route::get('/articles/{id}', 'ArticlesController@index')->name('articles');
+
+Route::get('/home', 'HomeController@getAll');
+Route::get('/home/{article}', 'HomeController@getId');
+Route::get('/article/{id}', 'ArticlesController@getId');
