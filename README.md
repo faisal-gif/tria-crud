@@ -81,3 +81,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 # cms-tria21
 cms-tria21 created by GitHub Classroom
 >>>>>>> f30086d1004d070d2bac9c3ab4b0b5b07a1844cb
+
+tugas kuis pemrograman web lanjut
+link youtube https://youtu.be/pr-zYubYjAo
+modifikasi pada bagian menu about

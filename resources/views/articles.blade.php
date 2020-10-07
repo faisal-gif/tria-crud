@@ -34,7 +34,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <a class="navbar-brand" href="#">Website Siti Amalia Fitriani</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -69,7 +69,7 @@
       <div class="col-md-8">
 
         <h1 class="my-4">Selamat Datang
-          <small>Secondary Text</small>
+          <small>Pada Halaman Artikel</small>
         </h1>
 
         <!-- Blog Post -->
@@ -83,17 +83,17 @@
           </div>
           <div class="card-footer text-muted">
           Posted on January 1, 2020 by
-            <a href="#">Start Bootstrap</a>
+            <a href="#">Siti Amalia Fitriani</a>
           </div>
         </div>
         
         <!-- Pagination -->
         <ul class="pagination justify-content-center mb-4">
           <li class="page-item">
-            <a class="page-link" href="#">&larr; Older</a>
+            <a class="page-link" href="#">&larr; Previous</a>
           </li>
           <li class="page-item disabled">
-            <a class="page-link" href="#">Newer &rarr;</a>
+            <a class="page-link" href="#">Next &rarr;</a>
           </li>
         </ul>
 
@@ -129,7 +129,7 @@
                     <a href="#">HTML</a>
                   </li>
                   <li>
-                    <a href="#">Freebies</a>
+                    <a href="#">PHP</a>
                   </li>
                 </ul>
               </div>
@@ -152,9 +152,9 @@
 
         <!-- Side Widget -->
         <div class="card my-4">
-          <h5 class="card-header">Side Widget</h5>
+          <h5 class="card-header">Keterangan</h5>
           <div class="card-body">
-            You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
+          Pemrograman web lanjut menggunakan laravel dan menggunakan template dari bootstrap
           </div>
         </div>
 
