@@ -1,0 +1,22 @@
+RANGKUMAN 5 AUTENTIKASI
+
+SITI AMALIA FITRIANI/MI 2A/1931710005/21
+
+*** ALUR REGISTRASI ***
+dalam melakukan proses registrasi pada web, yang pertama dilakukan adalah membuat tabel database untuk menyimpan data user.
+selanjutnya setelah membuat database dan membuat desain untuk form register, ketika user mengakses web pada menu register
+maka user akan menginputkan data yang diminta sesuai dengan kolom pada tabel database. pada menu register kali ini, user akan
+menginputkan nama, email, dan password. setelah mengisi dengan benar user dapat mengklik button register untuk melanjutkan
+proses registrasi. saat user sudah mengklik tombol register maka data yang diinputkan user akan otomatis masuk ke dalam database.
+setelah data user sudah terdaftar dalam database, maka user akan bisa login ke dalam web sewaktu-waktu.
+
+*** ALUR LOGIN ***
+saat proses login, user akan menginputkan email dan password yang sesuai seperti saat melakukan registrasi. setelah user memasukkan
+password dan email maka user akan mengklik login. jika email dan password yang dimasukkan sesuai dengan data saat daftar maka user
+dapat masuk karena email dan password tersebut sudah tercantum di dalam database. jika saat klik login tidak bisa, maka berarti email
+dan passwordnya tidak tercantum dalam database registrasi
+
+*** AUTENTIKASI ***
+autentikasi digunakan untuk validasi terhadap identitas user pada saat akan mengakses sebuah sistem. biasanya autentikasi menggunakan
+nama atau email dan password dari user yang nantinya akan dijadikan penanda saat verifikasi apakah user tersebut dapat diizinkan untuk
+mengakses sistem tersebut atau tidak
