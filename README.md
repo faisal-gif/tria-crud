@@ -1,3 +1,8 @@
+<p>tugas kuis pemrograman web lanjut
+<p><a href="https://youtu.be/pr-zYubYjAo">penambahan fitur about</a></p>
+<p>modifikasi pada bagian menu about agar dapat diakses ketika membuka halaman home</p>
+
+
 <<<<<<< HEAD
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
@@ -82,6 +87,3 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 cms-tria21 created by GitHub Classroom
 >>>>>>> f30086d1004d070d2bac9c3ab4b0b5b07a1844cb
 
-tugas kuis pemrograman web lanjut
-link youtube https://youtu.be/pr-zYubYjAo
-modifikasi pada bagian menu about
