@@ -31,34 +31,6 @@
     <link href="{{ asset('css/blog-home.css') }}" rel="stylesheet">
 </head>
 <body>
-  
-  <!-- Navigation -->
-  <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Website Siti Amalia Fitriani</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav> -->
 
   <!-- Page Content -->
   <div class="container">
@@ -87,6 +59,39 @@
             <a href="#">Siti Amalia Fitriani</a>
           </div>
         </div>
+
+        <!-- Form Comments -->
+        <div class="card my-4">
+          <h5 class="card-header">Tinggalkan Komentar Anda</h5>
+          <div class="card-body">
+            <form action="" method="post">
+            @csrf
+            <input type="hidden" name="_token" value="
+            <?php echo csrf_token()?>">
+              <div class="form-group">
+              <p>Nama : </p>
+               <input class="form-control" type="text" name="nama"></input>
+              </div>
+              <div class="form-group">
+              <p>Komentar : </p>
+               <input class="form-control" type="text" name="komentar"></input>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- single comment -->
+        @foreach($komen as $k)
+        @if($k->id_article == $id)
+        <div class="media mb-4">
+        <div class="media-body">
+          <h5 class="mt-0">{{$k -> name}}</h5>
+          <p>{{$k -> comment}}</p>
+        </div>
+        </div>
+        @endif
+        @endforeach
         
         <!-- Pagination -->
         <ul class="pagination justify-content-center mb-4">
