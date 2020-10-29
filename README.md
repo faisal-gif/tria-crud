@@ -1,3 +1,7 @@
+<p>Tugas UTS pemrograman web lanjut
+<p><a href="https://youtu.be/Vb6TalW9Njg">penambahan CRUD</a></p>
+<p>modifikasi penambahan fitur crud pada menu bar manage</p>
+
 <p>tugas kuis pemrograman web lanjut
 <p><a href="https://youtu.be/pr-zYubYjAo">penambahan fitur about</a></p>
 <p>modifikasi pada bagian menu about agar dapat diakses ketika membuka halaman home</p>

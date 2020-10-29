@@ -48,3 +48,10 @@ Route::get('/home', 'HomeController@getAll');
 Route::get('/home/{article}', 'HomeController@getId');
 Route::get('/article/{id}', 'ArticlesController@getId');
 Route::post('/article/{id}', 'ArticlesController@insertData')->name('insertData');
+
+Route::get('/manage', 'ArticlesController@index') -> name('manage');
+Route::get('/article/add','ArticlesController@add');
+Route::post('/article/create','ArticlesController@create');
+Route::get('/article/edit/{id}','ArticlesController@edit');
+Route::post('/article/update/{id}','ArticlesController@update');
+Route::get('/article/delete/{id}','ArticlesController@delete');

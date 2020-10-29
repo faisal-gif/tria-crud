@@ -15,8 +15,7 @@
         </h1>
 
         <!-- Blog Post -->
-
-        @foreach($article as $p)
+        @foreach ($article as $p)
         <div class="card mb-4">
           <img class="card-img-top" src="{{$p->image}}" alt="Card image cap">
           <div class="card-body">

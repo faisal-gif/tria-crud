@@ -15,7 +15,7 @@
           <small>Pada Halaman About</small>
         </h1>
 
-        <!- - Blog Post -->
+        <!-- Blog Post -->
         @foreach ($about as $item)
 
         <div class="card mb-3" style="max-width: 540px;">
