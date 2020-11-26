@@ -46,19 +46,21 @@
         </h1>
 
         <!-- Blog Post -->
+        @foreach($article as $a)
         <div class="card mb-4">
-          <img class="card-img-top" src="{{$article->image}}" alt="Card image cap">
+          <img class="card-img-top" src="{{URL::asset($a->image)}}">
           <div class="card-body">
-            <h2 class="card-title">{{$article->title}}</h2>
-            <p class="card-text">{{$article->author}}</p>
-            <p class="card-text">{{$article -> publication}}</p>
-            <a href="#" class="btn btn-primary">Read More &rarr;</a>
+            <h2 class="card-title">{{$a->title}}</h2>
+            <p class="card-text">{{$a->author}}</p>
+            <p class="card-text">{{$a -> publication}}</p>
+            <a href="#" class="btn btn-primary">Read More</a>
           </div>
           <div class="card-footer text-muted">
           Posted on January 1, 2020 by
             <a href="#">Siti Amalia Fitriani</a>
           </div>
         </div>
+        @endforeach
 
         <!-- Form Comments -->
         <div class="card my-4">

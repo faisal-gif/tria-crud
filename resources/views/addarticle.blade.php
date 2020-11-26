@@ -20,11 +20,11 @@
     <input type="text" class="form-control"
     required="required" name="publication"></br>
   </div>
-  <!--<div class="form-group">
+  <div class="form-group">
     <label for="image">Image</label>
-    <input type="text" class="form-control"
+    <input type="file" class="form-control"
     required="required" name="image"></br>
-  </div>-->
+  </div>
     <button type="submit" name="add" class="btn btnprimary float-right">Tambah Data</button>
   </form>
 
